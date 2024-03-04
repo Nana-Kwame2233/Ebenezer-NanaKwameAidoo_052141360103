@@ -1,0 +1,70 @@
+.navContainer {
+   width: 65%;
+   margin: 2% auto;
+}
+
+.navItems {
+   display: grid;
+   grid-template-columns: 1fr auto;
+}
+
+.leftContainer {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.leftContainer h1 {
+   font-size: 25px;
+   text-transform: uppercase;
+   font-family: sans-serif;
+}
+
+.rightContainer {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.rightContainer a {
+   font-size: 17px;
+   font-weight: 100;
+   margin-left: 15px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: black;
+}
+
+.facultyPage{
+   width: 100%;
+   height: 10vh;
+   background-color: rgb(27, 3, 168);
+}
+
+.facultyPageHeader{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.facultyPageHeader h1{
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #fff;
+}
+
+.facultyList{
+   width: 60%;
+   margin: 2% auto;
+   background-color: aliceblue;
+   padding: 20px;
+   height: 60vh;
+   border-radius: 10px;
+}
+
+.facultyList ul li {
+font-size: 23px;
+margin-top: 10px;
+font-family: sans-serif;
+}

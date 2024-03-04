@@ -1,0 +1,85 @@
+.navContainer {
+    width: 65%;
+    margin: 2% auto;
+}
+
+.navItems {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leftContainer h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightContainer a {
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}Statistical Sciences
+
+.departmentsPage {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(217, 217, 235);
+}
+
+.departmentsPageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.departmentsPageHeader h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #1005aa;
+}
+
+.paymentTable {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.tableHeader h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.tableBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.tableBody h1 {
+    font-size: 16px;
+    background-color: #05b30e;
+    padding: 10px;
+}
